@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Search</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1 class="bg-sky-600 hover:bg-sky-700 p-4 text-3xl text-center">TIIDE LABS USER SEARCH MINI PROJECT</h1>
+
+    <section class="flex mt-5 space-y-5 flex-col items-center ">
+        <h1 class="text-2xl text-black">Users Table</h1>
+        <p class="text-white ">Search through the list below by username</p>
+        <div>
+            <form action="">
+                <input type="text" id="search"
+                 class=" w-64 focus:bg-blue px-4 py-3 form-input rounded-full" 
+                 placeholder="Search by username" onkeyup="searchUsersByUsername()">
+            </form>
+        </div>
+
+
+            <div>
+                <ul id="users-container-list" class="bg-gray-300 p-7 rounded text-left">
+                    <!-- <li class="p-3 border-b-gray-900">
+                        <span>1. </span>
+                        <span>Oduyale Enoch</span> - <span class="bg-blue-500 rounded p-2">Enoch</span>
+                    </li>
+                    <li class="p-3">
+                        <span>Oduyale Enoch</span> - <span>Enoch</span>
+
+
+                    </li> -->
+                </ul>
+            </div>
+        
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
